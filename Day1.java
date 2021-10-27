@@ -12,8 +12,8 @@ public class Day1 {
     return floor;
   }
   public static void main(String[] args) {
-    System.out.println("(())");
-    System.out.println("((()");
-    System.out.println(")())())");
+    System.out.println(whatfloor("(())"));
+    System.out.println(whatfloor("((()"));
+    System.out.println(whatfloor(")())())"));
   }
 }
