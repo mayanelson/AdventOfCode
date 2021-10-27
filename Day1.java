@@ -2,10 +2,10 @@ public class Day1 {
   public static int whatfloor(String s) {
     int floor = 0;
     for (int i = 0; i < s.length(); i++){
-      if (s.charAt(i) == "(") {
+      if (s.charAt(i) == '(') {
         floor += 1;
       }
-      if (s.charAt(i) == ")") {
+      if (s.charAt(i) == ')') {
         floor += -1;
       }
     }
